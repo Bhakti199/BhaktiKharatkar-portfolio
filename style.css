@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#F87171;
+    --primary-color: #F87171;
     --dark-grey: #9CA3AF;
+    --off-white: #F3F4F6;
 }
 
 
@@ -16,7 +17,7 @@ body {
     padding-left: 0rem 1rem;
 }
 
-.container-centre{
+.container-center {
     max-width: 600px;
     margin: auto;
 }
@@ -39,7 +40,7 @@ body {
 hr {
     margin: 2rem 0rem;
 }
-/*****lists*/0
+/*****lists*/
 .list-non-bullet {
     list-style: none;
 }
@@ -83,8 +84,51 @@ hr {
 }
 
 .hero .hero-heading {
+    padding-top: 1rem;
     color: var(--dark-grey);
 }
+
+.hero .hero-heading .heading-inverted  {
+    color: var(--primary-color);
+}
+
+/*****section*/
+
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+   
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
