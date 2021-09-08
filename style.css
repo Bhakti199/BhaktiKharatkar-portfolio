@@ -112,7 +112,7 @@ hr {
     display:block;
     margin: 3rem auto;
 }
-}
+
 .section h1 {
     text-align: center;
    
@@ -120,6 +120,9 @@ hr {
 
 .ow {
     background-color: var(--off-white);
+}
+.blog-link {
+    text-decoration: none;
 }
 /*******footer*/
 .footer {
