@@ -119,7 +119,9 @@ hr {
     text-align: center;
    
 }
-
+.mark-number{
+    color: var(--primary-color);
+}
 .ow {
     background-color: var(--off-white);
 }
